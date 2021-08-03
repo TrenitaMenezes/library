@@ -1,0 +1,108 @@
+.item {
+  margin: 1rem 0;
+}
+
+.image {
+  width: 100%;
+  height: 20rem;
+  overflow: hidden;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.content {
+  text-align: center;
+  padding: 1rem;
+}
+
+.content h3 {
+  font-size: 1.25rem;
+  color: #2c292b;
+}
+
+.actions {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: #1995AD;
+  border: 1px solid #1995AD;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+
+ button:hover,
+ button:active {
+  background-color: #A1D6E2;
+  border: 2px solid #1995AD;
+}
+
+.cardStyles{
+    padding: 10px;
+    margin: 10px;
+    width: '18rem'
+}
+
+.btn-primary{
+    background-color: rgb(25, 149, 173);
+    border-color: rgb(25, 149, 173);
+    color: #F1F1F2;
+}
+
+.card-img-top{
+  height: 400px;
+}
+
+
+.addfavbutton{
+  background-color: #1995AD;
+	border: 2px solid #1995AD;
+	padding: 10px;
+	border-radius: 7px;
+	color: #f1f1f2;
+	font-weight: 400;
+	margin-right:10px;
+	margin-bottom: 10px;
+}
+
+.removefavbutton{
+  background-color: #f1f1f2;
+	border: 2px solid #f1f1f2;
+	padding: 10px;
+	border-radius: 7px;
+	color: #1995AD;
+	font-weight: 400;
+}
+
+
+.cardStyles{
+	/* width:20em; */
+	padding: 10px; 
+	margin: 10px; 
+	border: 2px solid #A1D6E2;
+}
+
+.BookItem_cardStyles__2wSUz.card {
+    width: 300px;
+    height: 720px;
+}
+
+p.card-text {
+    max-width: 290px;
+}
+
+@media (min-width: 576px){
+  .cardGroupStyles {
+      height: auto;
+      width: 320px;
+  }
+}

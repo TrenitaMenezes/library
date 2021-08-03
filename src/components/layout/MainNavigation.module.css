@@ -1,0 +1,76 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1995AD;
+  padding: 0 7% 0 16%;
+  color: #F1F1F2;
+}
+
+.logo {
+  font-size: 2rem !important;
+  color: #F1F1F2 !important;
+  font-weight: bold;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.header li {
+  margin-left: 3rem;
+}
+
+.header a {
+  text-decoration: none;
+  font-size: 1em;
+  color: #A1D6E2;
+}
+
+.header a:hover,
+.header a:active,
+.header a.active {
+  color: white;
+}
+
+.bg-myRed{
+  background-color: crimson;
+}
+
+.badge {
+  background-color: #5ec7e7;
+  color: white;
+  border-radius: 12px;
+  padding: 0 1rem;
+  margin-left: 0.5rem;
+}
+
+navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(241, 241, 242, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: #f1f1f2;
+} 
+
+
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+}
+
+@media (max-width:570px){
+  .navStyles {
+    background-color: #F1F1F2 !important;
+    padding: 1em;
+  }
+}
